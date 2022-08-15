@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.homecenter.Runners.RegistroRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-BS1O569" time="0.0">
+  <properties/>
+  <system-out><![CDATA[21:30:07.384 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documentos\EjercicioSemillero\retoScreenPlay\serenity.properties 
+21:30:07.478 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documentos\EjercicioSemillero\retoScreenPlay\serenity.properties 
+21:30:07.478 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documentos\EjercicioSemillero\retoScreenPlay\serenity.properties 
+21:30:07.494 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+21:30:07.494 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=chromedriver.exe
+21:30:07.494 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized --disable-popup-blocking
+21:30:07.494 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+21:30:07.494 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+21:30:07.806 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documentos/EjercicioSemillero/retoScreenPlay/src/test/resources/features/registro.feature
+21:30:08.025 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documentos\EjercicioSemillero\retoScreenPlay\serenity.properties 
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documentos\EjercicioSemillero\retoScreenPlay\serenity.properties 
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documentos\EjercicioSemillero\retoScreenPlay\serenity.properties 
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=chromedriver.exe
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized --disable-popup-blocking
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+21:30:08.056 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+21:30:08.072 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+21:30:08.072 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@45ee675
+21:30:08.087 [Test worker] INFO  - Test Suite Started: Registro de nuevo usuario exitoso
+
+?[31mFailed scenarios:?[0m
+file:///D:/Documentos/EjercicioSemillero/retoScreenPlay/src/test/resources/features/registro.feature:3 # Registro de usuario exitoso
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[32m2 passed?[0m)
+1m0,623s
+
+
+java.lang.AssertionError: disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BS1O569', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Andres\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db66dd6f212fe5bdede68fd6470513c1
+*** Element info: {Using=xpath, value=//span[text()='Tu cuenta fue creada con éxito']}
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:320)
+	at com.homecenter.StepDefinitions.RegistroStepDefinition.visualizara_un_mensaje_de_registro_extiso(RegistroStepDefinition.java:47)
+	at ?.visualizara un mensaje de registro extiso(file:///D:/Documentos/EjercicioSemillero/retoScreenPlay/src/test/resources/features/registro.feature:6)
+
+
+21:31:08.429 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+21:31:08.524 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+21:31:08.540 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@67f591c2
+21:31:08.540 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro de nuevo usuario exitoso:Registro de usuario exitoso
+21:31:08.540 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@67f591c2: Generating report for test outcome: Registro de nuevo usuario exitoso:Registro de usuario exitoso
+21:31:08.540 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Registro de usuario exitoso to file D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3.json (using temp file D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3.jsonb4846b21-7ff5-45b5-8b66-d3f6afad4401)
+21:31:08.586 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro de nuevo usuario exitoso:Registro de usuario exitoso done
+21:31:08.586 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+21:31:08.586 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 46 ms
+21:31:08.586 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@603f4e3e
+21:31:08.586 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro de nuevo usuario exitoso:Registro de usuario exitoso
+21:31:08.586 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@603f4e3e: Generating report for test outcome: Registro de nuevo usuario exitoso:Registro de usuario exitoso
+21:31:08.586 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Registro de usuario exitoso in b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3
+21:31:08.618 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Agregar producto al carrito de compra
+21:31:08.618 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Longin usuario exitoso
+21:31:08.633 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Registro de nuevo usuario exitoso
+21:31:08.633 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Agregar producto al carrito de compra', type='feature' parent = 'null', cardNumber='null'}, Requirement{name='Longin usuario exitoso', type='feature' parent = 'null', cardNumber='null'}, Requirement{name='Registro de nuevo usuario exitoso', type='feature' parent = 'null', cardNumber='null'}]
+21:31:08.633 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro de usuario exitoso-[]: Optional[Requirement{name='Registro de nuevo usuario exitoso', type='feature' parent = 'null', cardNumber='null'}]
+21:31:08.633 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro de usuario exitoso-[]: Optional[Requirement{name='Registro de nuevo usuario exitoso', type='feature' parent = 'null', cardNumber='null'}]
+21:31:08.665 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro de usuario exitoso-[]: Optional[Requirement{name='Registro de nuevo usuario exitoso', type='feature' parent = 'null', cardNumber='null'}]
+21:31:08.665 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Registro de usuario exitoso-[]: Optional[Requirement{name='Registro de nuevo usuario exitoso', type='feature' parent = 'null', cardNumber='null'}]
+21:31:08.665 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3_screenshots.html
+21:31:09.071 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3_screenshots.html in 406 ms
+21:31:09.071 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Registro de nuevo usuario exitoso:Registro de usuario exitoso in b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3.html in directory D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity  
+21:31:09.071 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3.html
+21:31:10.211 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report b2952dba825bb91a45b25a8fd38ec87269c2b251e2a85afbff9f726531b655d3.html in 1140 ms
+21:31:10.211 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro de nuevo usuario exitoso:Registro de usuario exitoso done
+21:31:10.211 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+21:31:10.211 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1625 ms
+21:31:10.274 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///D:/Documentos/EjercicioSemillero/retoScreenPlay/src/test/resources/features/registro.feature
+21:31:10.274 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+21:31:10.274 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

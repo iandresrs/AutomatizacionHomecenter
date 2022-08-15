@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Registro de nuevo usuario exitoso</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Registro de nuevo usuario exitoso</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Registro de nuevo usuario exitoso</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m0.30s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Registro de usuario exitoso"></a>
+<h3 class="failures">Registro de usuario exitoso</h3>
+<span class="code">
+<pre>java.lang.AssertionError: disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BS1O569', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Andres\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db66dd6f212fe5bdede68fd6470513c1
+*** Element info: {Using=xpath, value=//span[text()='Tu cuenta fue creada con éxito']}
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:320)
+	at com.homecenter.StepDefinitions.RegistroStepDefinition.visualizara_un_mensaje_de_registro_extiso(RegistroStepDefinition.java:47)
+	at ✽.visualizara un mensaje de registro extiso(file:///D:/Documentos/EjercicioSemillero/retoScreenPlay/src/test/resources/features/registro.feature:6)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Registro de usuario exitoso</td>
+<td class="failures">1m0.30s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:30:08.260 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documentos/EjercicioSemillero/retoScreenPlay/src/test/resources/features/registro.feature
+21:30:08.353 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Registro de usuario exitoso(registro-de-nuevo-usuario-exitoso;registro-de-usuario-exitoso)
+-------------------------------------------------------------------
+21:30:08.416 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Agregar producto al carrito de compra
+21:30:08.432 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Longin usuario exitoso
+21:30:08.432 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Registro de nuevo usuario exitoso
+21:30:09.103 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: RegistroStepDefinition.el_usuario_se_encuentre_en_la_pagina_web - {0} opens the #targetPage
+21:30:09.166 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+21:30:09.759 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=104 in cache (valid until 21:42:17 14/08/2022 COT)
+21:30:09.775 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome104=104.0.5112.79 in cache (valid until 17:17:29 15/08/2022 COT)
+21:30:09.775 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+21:30:09.775 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 104.0.5112.79 found in cache
+21:30:09.775 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Andres\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+21:30:10.369 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+21:30:10.369 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+21:30:19.885 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+21:30:19.885 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+21:30:21.042 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\86ca77d9ba5dfe35d24d3f58d8465dab64674c99afc2cb25492a8ca5a8108410.png
+21:30:21.058 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+21:30:21.780 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\86ca77d9ba5dfe35d24d3f58d8465dab64674c99afc2cb25492a8ca5a8108410.png
+21:30:22.740 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\86ca77d9ba5dfe35d24d3f58d8465dab64674c99afc2cb25492a8ca5a8108410.png
+21:30:22.740 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: RegistroStepDefinition.el_usuario_llene_el_formulario_de_registro - performAs
+21:30:24.207 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click en el boton mi cuenta
+21:30:25.108 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\86ca77d9ba5dfe35d24d3f58d8465dab64674c99afc2cb25492a8ca5a8108410.png
+21:30:25.108 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:25.108 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click en el boton mi cuenta
+21:30:26.622 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\ec1eb2ca7202473733d34695bf64fa23c19a3bb61cde4d9d9e72be19687f3683.png
+21:30:26.638 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:26.653 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click en el boton crear cuenta
+21:30:27.317 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\ec1eb2ca7202473733d34695bf64fa23c19a3bb61cde4d9d9e72be19687f3683.png
+21:30:27.317 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:27.317 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click en el boton crear cuenta
+21:30:30.558 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\298cca9df8a7f75bbe272264da69fd82f9d0993d24f0f2ed14f6e5c3c8791b3b.png
+21:30:30.573 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:30.573 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} enters #theTextAsAString into #target
+21:30:30.573 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar nombre
+21:30:31.429 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\552026bd185261b566d7083d6b367950c08664222e86749b9d886a0b0e3fc1e0.png
+21:30:31.429 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+21:30:31.445 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} enters #theTextAsAString into #target
+21:30:31.445 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar apellido
+21:30:32.235 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\37c6cfdc99be55f2adea450f35073ba7eb8ebe55f9b60e6504567aee6b58b497.png
+21:30:32.235 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+21:30:32.251 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:32.267 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for CLICK EN TIPO
+21:30:32.922 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\6f804bd86aceef6c46d2102500295e6ee63094e69e2f5723ef8b9288565ef07b.png
+21:30:32.922 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:32.937 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:32.937 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Selecciona tipo documento cedula
+21:30:33.584 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\0366e07c97da029e3034e48294713bc81a633bc45de9d5c73d3dcbcc60912f8c.png
+21:30:33.585 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6904265797624887619
+21:30:33.585 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\0366e07c97da029e3034e48294713bc81a633bc45de9d5c73d3dcbcc60912f8c.png
+21:30:33.606 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:33.629 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} enters #theTextAsAString into #target
+21:30:33.632 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresa el numero de documento
+21:30:34.707 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\006333ae921f1e5d47447c5f5f667f910c88775937a516b39111c541d09a3291.png
+21:30:34.708 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2589576514317421817
+21:30:34.708 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\006333ae921f1e5d47447c5f5f667f910c88775937a516b39111c541d09a3291.png
+21:30:34.729 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+21:30:34.747 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} enters #theTextAsAString into #target
+21:30:34.747 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar numero de telefono
+21:30:35.651 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\fd3ed717415279f0d26834e51deeae857d2b538fde94511bdc30b559b67264d1.png
+21:30:35.652 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8961614323254437080
+21:30:35.652 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\fd3ed717415279f0d26834e51deeae857d2b538fde94511bdc30b559b67264d1.png
+21:30:35.667 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+21:30:35.675 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:35.675 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click tipo contribuyente
+21:30:36.132 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\5d095b204e0111d621e8c99d2230933a5ef30004214ba88a37cc727e102d754b.png
+21:30:36.132 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8284225817777808669
+21:30:36.132 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\5d095b204e0111d621e8c99d2230933a5ef30004214ba88a37cc727e102d754b.png
+21:30:36.147 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:36.163 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:36.163 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Selecciona el contribuyente
+21:30:36.617 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\8702f2b24b241c459a1f9063bf1870dbfaa1b1e159591ef78fd2295e15f19c19.png
+21:30:36.617 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5771232043614962502
+21:30:36.617 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\8702f2b24b241c459a1f9063bf1870dbfaa1b1e159591ef78fd2295e15f19c19.png
+21:30:36.632 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:36.648 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} enters #theTextAsAString into #target
+21:30:36.648 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar email
+21:30:37.399 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\c9edbfb0682c99c467c955c9aa09d6f72b3a0d1c232261a98d3db1f60005f830.png
+21:30:37.399 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1170335085315035873
+21:30:37.399 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\c9edbfb0682c99c467c955c9aa09d6f72b3a0d1c232261a98d3db1f60005f830.png
+21:30:37.415 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+21:30:37.431 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:37.431 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click acepta terminos condiciones
+21:30:37.882 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\044a76256297217e91b40ff60e0ce0aa515fa680d0e907c9d31955e169893ffd.png
+21:30:37.882 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3850428092308885245
+21:30:37.882 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\044a76256297217e91b40ff60e0ce0aa515fa680d0e907c9d31955e169893ffd.png
+21:30:37.897 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:37.897 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} enters #theTextAsAString into #target
+21:30:37.897 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Ingresar clave
+21:30:38.616 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\77f607e52268bf6cc5d86181702116600fa9557d0fd029da09996a321fe920d9.png
+21:30:38.616 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7855027011111089059
+21:30:38.616 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\77f607e52268bf6cc5d86181702116600fa9557d0fd029da09996a321fe920d9.png
+21:30:38.631 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+21:30:38.631 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click crear cuenta formulario
+21:30:38.973 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\77f607e52268bf6cc5d86181702116600fa9557d0fd029da09996a321fe920d9.png
+21:30:38.973 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Registro.performAs - {0} clicks on #target
+21:30:38.973 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click crear cuenta formulario
+21:30:39.396 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\0291163e712663f31e29cbf57550fbf3a5426c0880d42bbdd1c468febab83f42.png
+21:30:39.412 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:39.427 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+21:30:39.443 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: RegistroStepDefinition.el_usuario_llene_el_formulario_de_registro - performAs
+21:30:39.817 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\0291163e712663f31e29cbf57550fbf3a5426c0880d42bbdd1c468febab83f42.png
+21:30:39.817 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: CrearUsuario.performAs - {0} clicks on #target
+21:30:39.817 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Click crear cuenta formulario
+21:30:40.282 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\f1b8055a9e391137bc2e5763437a1bb09c2580b163e9246ab367ac8cfe2ebe3d.png
+21:30:40.282 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6039461258908627972
+21:30:40.282 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\f1b8055a9e391137bc2e5763437a1bb09c2580b163e9246ab367ac8cfe2ebe3d.png
+21:30:40.296 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+21:30:40.308 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+21:30:40.721 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\e359f6a98015a52cab5a499d8a496d40b58ae1ac19913c31ee9337407137c3ed.png
+21:30:40.722 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4048861344428964750
+21:30:40.722 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to D:\Documentos\EjercicioSemillero\retoScreenPlay\target\site\serenity\e359f6a98015a52cab5a499d8a496d40b58ae1ac19913c31ee9337407137c3ed.png
+21:30:40.726 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Mensaje valida el registro
+21:31:08.304 [Test worker] ERROR  - 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ &lt;|  _ &lt;| |_| |  _ &lt; 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Registro de usuario exitoso
+---------------------------------------------------------------------
+21:31:08.304 [Test worker] DEBUG  - RELATED ISSUES: 
+21:31:08.398 [Test worker] ERROR  -     Test failed at step: Then el actor puede ver should be (true)
+21:31:08.398 [Test worker] ERROR  -     disconnected: received Inspector.detached event
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 8369
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago 14, 2022 9:30:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1660530650.568][WARNING]: Timed out connecting to Chrome, retrying...
+[1660530661.043][WARNING]: Timed out connecting to Chrome, retrying...
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at Aug 14, 2022 9:31:10 PM</p>
+</div>
+</div>
+</body>
+</html>
